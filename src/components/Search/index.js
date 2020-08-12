@@ -37,7 +37,7 @@ const searchClient = {
 const Hit = ({ hit }) => ( 
     <div className="card">
         <div className="card-contents">
-            <Link href={"http://localhost:8000/" + hit.slug + "/"} >
+            <Link href={"https://smile-0yen.dev/" + hit.slug + "/"} >
                 <Highlight attribute="title" hit={hit} className="card-title" />
             </Link>
             <Snippet tagName="mark" attribute="plaintext" hit={hit}  className="card-year"/>
