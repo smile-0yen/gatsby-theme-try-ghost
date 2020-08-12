@@ -119,7 +119,7 @@ module.exports = (themeOptions) => {
                   `,
                 },
             },
-            {
+            /*{
                 resolve: `gatsby-plugin-feed`,
                 options: {
                     query: `
@@ -139,7 +139,7 @@ module.exports = (themeOptions) => {
                         generateRSSFeed(siteConfig),
                     ],
                 },
-            },
+            },*/
             {
                 resolve: `gatsby-plugin-advanced-sitemap`,
                 options: {
