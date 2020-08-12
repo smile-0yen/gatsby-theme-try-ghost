@@ -4,6 +4,9 @@
     display: flex;
     height: 9vh
 }
+.header img {
+    margin: 2px 4px;
+}
 .search-bar{
     display: flex;
     justify-content: flex-end;
@@ -16,6 +19,12 @@ input{
     border-radius: .5em;
     border-width: thin;
     padding: 10px
+}
+.ais-SearchBox-submit {
+  display: none;
+}
+.ais-SearchBox-reset {
+  display: none;
 }
 main{
     width: 100%;
