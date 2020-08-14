@@ -29,10 +29,18 @@ input{
 main{
     width: 100%;
 }
-.ais-Hits-list ul{
+.ais-Hits {
+    margin: 0 auto;
+    max-width: 1040px;
     width: 100%;
+}
+.ais-Hits-list ul{
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-left:  0.1em;
+    padding-right: 0.1em;
+    width: 100%;
 }
 .ais-Hits-list li{
     list-style-type: none;
@@ -43,10 +51,9 @@ main{
 .card{
     background-color: #f9f9f9;
     display: flex;
+    max-width: 1040px;
     border-radius: 10px;
-    margin:20px;
     padding: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-contents{
     margin-left: 20px;
