@@ -9,6 +9,7 @@ import {
   Hits,
   Highlight,
   Pagination,
+  PoweredBy,
   Snippet
 } from 'react-instantsearch-dom';
 import './Search.css'
@@ -61,9 +62,7 @@ const Search = () => {
                         event.preventDefault();
                     }}
                 />
-                <a href="https://www.algolia.com/">
-                <img width="168" height="24" alt="Search by Algolia" src="https://res.cloudinary.com/hilnmyskv/image/upload/q_auto/v1595410010/Algolia_com_Website_assets/images/shared/algolia_logo/search-by-algolia-light-background.png" />
-                </a>
+                <PoweredBy />
             </header>
             <Hits hitComponent={Hit} />
         </InstantSearch>
